@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import <MapKit/MapKit.h>
+
 
 @interface ViewController ()
 
@@ -16,7 +18,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+     MKMapView *mapView = [[MKMapView alloc] initWithFrame:CGRectMake(0, 0, 375, 667)];
+     [mapView setMapType:0];
+     [mapView setZoomEnabled:YES];
+     [mapView setScrollEnabled:YES];
+     [mapView setShowsUserLocation:NO];
+     
+     [self.view addSubview:mapView];
+    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -14,6 +14,7 @@
 		3D2753E61B3E43B6009D1408 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D2753E51B3E43B6009D1408 /* Images.xcassets */; };
 		3D2753E91B3E43B6009D1408 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D2753E71B3E43B6009D1408 /* LaunchScreen.xib */; };
 		3D2753F51B3E43B6009D1408 /* LyndaMapKitsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2753F41B3E43B6009D1408 /* LyndaMapKitsTests.m */; };
+		3D2753FF1B3E4677009D1408 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2753FE1B3E4677009D1408 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		3D2753EE1B3E43B6009D1408 /* LyndaMapKitsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyndaMapKitsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D2753F31B3E43B6009D1408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D2753F41B3E43B6009D1408 /* LyndaMapKitsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LyndaMapKitsTests.m; sourceTree = "<group>"; };
+		3D2753FE1B3E4677009D1408 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D2753FF1B3E4677009D1408 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +99,7 @@
 		3D2753D81B3E43B6009D1408 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3D2753FE1B3E4677009D1408 /* MapKit.framework */,
 				3D2753D91B3E43B6009D1408 /* Info.plist */,
 				3D2753DA1B3E43B6009D1408 /* main.m */,
 			);
